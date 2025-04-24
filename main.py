@@ -50,7 +50,7 @@ def calculate():
             people = int(request.form["people"])
             bill_with_tip = bill + (tip / 100) * bill
             bill_per_person = bill_with_tip / people
-            final_amount = round(bill_per_person, 2)
+            final_amount = round(bill_per_person)
         except:
             final_amount = "오류가 발생했어요!"
 
