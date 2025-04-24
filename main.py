@@ -19,7 +19,7 @@ HTML_TEMPLATE = '''
         <label>총 결제 금액은 얼마였나요? (KRW)</label><br>
         <input type="number" step="0.01" name="bill" required><br><br>
 
-        <label>팁으로 몇 %%를 줄 생각인가요?</label><br>
+        <label>팁으로 몇 %를 줄 생각인가요?</label><br>
         <select name="tip">
             <option value="0">0%</option>
             <option value="10">10%</option>
